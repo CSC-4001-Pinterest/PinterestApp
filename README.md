@@ -69,8 +69,7 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 * profile --> manages your account
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://github.com/CSC-4001-Pinterest/PinterestApp/blob/main/IMG_2878.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
