@@ -1,13 +1,9 @@
-Original App Design Project - README Template
-===
-
-# Pinterest App
+# Guystrist
 
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
-2. [Schema](#Schema)
 
 ## Overview
 ### Description
@@ -18,9 +14,9 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 - **Category: Social Media/Lifestyle**
 - **Mobile: This app will be made for mobile devices but, it could be developed to be use on Computers/Laptops. This app's functionality would not be limited to mobile devices, but it may be easier to navigate on a mobile device.**
 - **Story: Analyzes users interests, can connect them to other users with similar choices. You create your own boards for your personal purposes, and share your ideas with others.**
-- **Market: African-American Males**
-- **Habit: Used whenever the user needs inspiration or new ideas**
-- **Scope: Finding new ideas/lifestyle changes/networking/research/purchasing items**
+- **Market: African-American Males.**
+- **Habit: This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.**
+- **Scope: First we would start with grouping people based on their interest. This could be a great counterpart to Interest.**
 
 ## Product Spec
 
