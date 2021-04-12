@@ -16,8 +16,8 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Social Media/Lifestyle**
-- **Mobile: Yes **
-- **Story: **
+- **Mobile: This app will be made for mobile devices but, it could be developed to be use on Computers/Laptops. This app's functionality would not be limited to mobile devices, but it may be easier to navigate on a mobile device.**
+- **Story: Analyzes users interests, can connect them to other users with similar choices. You create your own boards for your personal purposes, and share your ideas with others.**
 - **Market: African-American Males**
 - **Habit: Used whenever the user needs inspiration or new ideas**
 - **Scope: Finding new ideas/lifestyle changes/networking/research/purchasing items**
