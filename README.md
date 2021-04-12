@@ -54,18 +54,19 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* home
+* search
+* messages
+* profile
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* forced login
+   * create account if no login is provided
+   * creditials authenicated --> home screen
+* home screen --> list of images
+* messages --> jumps to chat
+* profile --> manages your account
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
