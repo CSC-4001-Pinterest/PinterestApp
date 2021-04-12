@@ -24,23 +24,32 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
+* User will be able to upload a picture with a description as a "pin/board"
+* User is able to log in 
+* User will stay logged in after app is closed and reopen.
+* users can see other users' "pins/boards"
+* users can see their profile with their uploaded pin/board
 * ...
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
+* Can save other users' pins/boards
+* can message other users
+* can search boards
+* the ability to shop on the app through interal or external browser
 * ...
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
-
+* Login 
+   * User is able to log in 
+   * User will stay logged in after app is closed and reopen.
+* Homepage 
+   * users can see other users' "pins/boards"
+* Profile
+   * users can see their profile with their uploaded pin/board
+* camera
+    *User will be able to upload a picture with a description as a "pin/board"
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
