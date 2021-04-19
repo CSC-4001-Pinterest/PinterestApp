@@ -116,6 +116,9 @@ updatedAt	| DateTime	| date when post is last updated (default field)
 --Profile Screen
     - (Read/GET) Query logged in user object
     - (Read/GET) Query CurrentUser "pins/boards"
+ 
+    
+    
   
             -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
             -query.include(Post.KEY_USER);
