@@ -87,18 +87,20 @@ createdAt |	DateTime |	date when post is created (default field)
 updatedAt	| DateTime	| date when post is last updated (default field)
 ### Networking
 -Home Feed Screen
-  -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
-  -query.include("author", equalTo: currentUser);
-  -query.addDescendingOrder("createdAt");
-  -query.findInBackground(new FindCallback<Post>()
-  -//TODO: FindCallback<Post>
   
-    -(Create/POST) Create a new like on a post
-    -(Delete) Delete existing like
-    -(Create/POST) Create a new comment on a post
-    -(Delete) Delete existing comment
+    -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
+    -query.include("author", equalTo: currentUser);
+    -query.addDescendingOrder("createdAt");
+    -query.findInBackground(new FindCallback<Post>()
+    -//TODO: FindCallback<Post>
     
- - Create Post Screen 
+-(Create/POST) Create a new like on a post
+-(Delete) Delete existing like
+-(Create/POST) Create a new comment on a post
+-(Delete) Delete existing comment
+
+
+- Create Post Screen 
   -(Create/POST) Create a new post object
   
       - //TODO - launchCamera()
