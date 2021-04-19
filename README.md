@@ -86,6 +86,36 @@ likesCount |	Number |	number of likes for the post
 createdAt |	DateTime |	date when post is created (default field)
 updatedAt	| DateTime	| date when post is last updated (default field)
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+-Home Feed Screen
+    ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
+        query.include("author", equalTo: currentUser);
+        query.addDescendingOrder("createdAt");
+        query.findInBackground(new FindCallback<Post>()
+   //TODO: FindCallback<Post>
+  
+    -(Create/POST) Create a new like on a post
+    -(Delete) Delete existing like
+    -(Create/POST) Create a new comment on a post
+    -(Delete) Delete existing comment
+    
+ - Create Post Screen 
+    -(Create/POST) Create a new post object
+      - //TODO - launchCamera()
+      - //TODO- getPhotoFileUri
+      - //TODO- savePost
+        - ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
+            query.setDescription(description);
+            query.setImage(new ParseFile(photoFile));
+            query.setUser(currentUser);
+            query.saveInBackground
+      - 
+-Profile Screen
+    -(Read/GET) Query logged in user object
+        -(Read/GET) Query CurrentUser "pins/boards"
+          -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
+            query.include(Post.KEY_USER);
+            query.whereEqualTo(Post.KEY_USER, ParseUser.getCurrentUser());
+            query.addDescendingOrder(Post.KEY_CREATED_KEY);
+            query.findInBackground(new FindCallback<Post>()
+            //TODO FindCallback<Post>
+
