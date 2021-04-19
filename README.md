@@ -29,15 +29,13 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 * User will stay logged in after app is closed and reopen.
 * users can see other users' "pins/boards"
 * users can see their profile with their uploaded pin/board
-* ...
 
 **Optional Nice-to-have Stories**
 
 * Can save other users' pins/boards
 * can message other users
 * can search boards
-* the ability to shop on the app through interal or external browser
-* ...
+
 
 ### 2. Screen Archetypes
 
@@ -76,7 +74,7 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 Property |	Type | Description
 | --- | --- | --- |
