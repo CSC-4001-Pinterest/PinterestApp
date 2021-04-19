@@ -100,6 +100,7 @@ updatedAt	| DateTime	| date when post is last updated (default field)
     
  - Create Post Screen 
   -(Create/POST) Create a new post object
+  
       - //TODO - launchCamera()
       - //TODO- getPhotoFileUri
       - //TODO- savePost
@@ -112,7 +113,8 @@ updatedAt	| DateTime	| date when post is last updated (default field)
 -Profile Screen
     -(Read/GET) Query logged in user object
         -(Read/GET) Query CurrentUser "pins/boards"
-          -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
+  
+            -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
             -query.include(Post.KEY_USER);
             -query.whereEqualTo(Post.KEY_USER, ParseUser.getCurrentUser());
             -query.addDescendingOrder(Post.KEY_CREATED_KEY);
