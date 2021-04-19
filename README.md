@@ -100,8 +100,8 @@ updatedAt	| DateTime	| date when post is last updated (default field)
   *(Delete) Delete existing comment
 
 
-* Create Post Screen 
-  *(Create/POST) Create a new post object
+-Create Post Screen 
+  -(Create/POST) Create a new post object
   
       - //TODO - launchCamera()
       - //TODO- getPhotoFileUri
@@ -112,9 +112,9 @@ updatedAt	| DateTime	| date when post is last updated (default field)
             -query.setUser(currentUser);
             -query.saveInBackground
       - 
-*Profile Screen
-    *(Read/GET) Query logged in user object
-        *(Read/GET) Query CurrentUser "pins/boards"
+-Profile Screen
+    - (Read/GET) Query logged in user object
+    - (Read/GET) Query CurrentUser "pins/boards"
   
             -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
             -query.include(Post.KEY_USER);
