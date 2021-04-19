@@ -5,6 +5,7 @@
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 
+
 ## Overview
 ### Description
 This app will resemble Pinterest, but it will be targeted towards a differnt audience. The app will mainly target African American Males. Since Pinterest is used often by women, we felt that it was fitting to make something similar for men. 
@@ -86,7 +87,7 @@ likesCount |	Number |	number of likes for the post
 createdAt |	DateTime |	date when post is created (default field)
 updatedAt	| DateTime	| date when post is last updated (default field)
 ### Networkin
-*Home Feed Screen
+--Home Feed Screen
   
     -ParseQuery<Post> query = ParseQuery.getQuery(className: "Post");
     -query.include("author", equalTo: currentUser);
@@ -94,13 +95,13 @@ updatedAt	| DateTime	| date when post is last updated (default field)
     -query.findInBackground(new FindCallback<Post>()
     -//TODO: FindCallback<Post>
     
-  *(Create/POST) Create a new like on a post
-  *(Delete) Delete existing like
-  *(Create/POST) Create a new comment on a post
-  *(Delete) Delete existing comment
+  -(Create/POST) Create a new like on a post
+  -(Delete) Delete existing like
+  -(Create/POST) Create a new comment on a post
+  -(Delete) Delete existing comment
 
 
--Create Post Screen 
+--Create Post Screen 
   -(Create/POST) Create a new post object
   
       - //TODO - launchCamera()
@@ -112,7 +113,7 @@ updatedAt	| DateTime	| date when post is last updated (default field)
             -query.setUser(currentUser);
             -query.saveInBackground
       - 
--Profile Screen
+--Profile Screen
     - (Read/GET) Query logged in user object
     - (Read/GET) Query CurrentUser "pins/boards"
   
