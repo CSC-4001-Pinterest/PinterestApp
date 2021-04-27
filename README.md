@@ -25,11 +25,11 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 
 **Required Must-have Stories**
 
--[] User will be able to upload a picture with a description as a "pin/board"
--[x] User is able to log in 
--[] User will stay logged in after app is closed and reopen.
--[] users can see other users' "pins/boards"
--[] users can see their profile with their uploaded pin/board
+- [] User will be able to upload a picture with a description as a "pin/board"
+- [x] User is able to log in 
+- [] User will stay logged in after app is closed and reopen.
+- [] users can see other users' "pins/boards"
+- [] users can see their profile with their uploaded pin/board
 
 **Optional Nice-to-have Stories**
 
