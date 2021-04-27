@@ -126,4 +126,7 @@ updatedAt	| DateTime	| date when post is last updated (default field)
             -query.addDescendingOrder(Post.KEY_CREATED_KEY);
             -query.findInBackground(new FindCallback<Post>()
             -//TODO FindCallback<Post>
+            
+- Our Code is on Master branch
+- <img src='https://github.com/CSC-4001-Pinterest/PinterestApp/blob/main/guystrist.gif'/>
 
