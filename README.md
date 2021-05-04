@@ -130,3 +130,6 @@ updatedAt	| DateTime	| date when post is last updated (default field)
 - Our Code is on Master branch
 - <img src='https://github.com/CSC-4001-Pinterest/PinterestApp/blob/main/guystrist.gif'/>
 
+-Sprint 2
+- <img src='https://github.com/CSC-4001-Pinterest/PinterestApp/blob/main/Walkthrough2.gif'/>
+
