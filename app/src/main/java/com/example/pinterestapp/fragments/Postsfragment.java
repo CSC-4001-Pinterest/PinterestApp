@@ -7,6 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -38,6 +39,7 @@ public class Postsfragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_posts, container, false);
     }
@@ -49,9 +51,17 @@ public class Postsfragment extends Fragment {
         allPosts = new ArrayList<>();
         adapter = new Adapter(getContext(), allPosts);
         rvPosts.setAdapter(adapter);
-        rvPosts.setLayoutManager(new LinearLayoutManager(getContext()));
+        StaggeredGridLayoutManager gridLayoutManager =
+                new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
+       // rvPosts.setLayoutManager(new LinearLayoutManager(getContext()));
+        rvPosts.setLayoutManager(gridLayoutManager);
+// Attach the layout manager to the recycler view
+      //  rvPosts.setLayoutManager(new StaggeredGridLayoutManager(getContext()));
+     //   rvPosts.setLayoutManager(staggeredGridLayoutManager (getContext()));
         queryPosts();
+
     }
+
 
     protected void queryPosts() {
         // Specify which class to query
