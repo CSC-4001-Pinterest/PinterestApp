@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     final FragmentManager fragmentManager = getSupportFragmentManager();
 
-    // Using ArrayList to store images data
+\
 
 
     @Override
