@@ -68,19 +68,7 @@ public class MainActivity extends AppCompatActivity {
         });
         // Set default selection
         bottomNavigationView.setSelectedItemId(R.id.action_home);
-        // Getting reference of recyclerView
-       // recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
-        // Setting the layout as Staggered Grid for vertical orientation
-       //StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL);
-        //fragmentDemo.setLayoutManager(staggeredGridLayoutManager);
-
-
-        // Sending reference and data to Adapter
-     //  Adapter adapter = new Adapter(MainActivity.this);
-
-        // Setting Adapter to RecyclerView
-      //recyclerView.setAdapter(adapter);
     }
 
     public void LaunchCamera() {
