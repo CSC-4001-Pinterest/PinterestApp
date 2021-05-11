@@ -25,11 +25,11 @@ This app will resemble Pinterest, but it will be targeted towards a differnt aud
 
 **Required Must-have Stories**
 
-- [] User will be able to upload a picture with a description as a "pin/board"
+- [x] User will be able to upload a picture with a description as a "pin/board"
 - [x] User is able to log in 
-- [] User will stay logged in after app is closed and reopen.
-- [] users can see other users' "pins/boards"
-- [] users can see their profile with their uploaded pin/board
+- [x] User will stay logged in after app is closed and reopen.
+- [x] users can see other users' "pins/boards"
+- [x] users can see their profile with their uploaded pin/board
 
 **Optional Nice-to-have Stories**
 
@@ -132,4 +132,5 @@ updatedAt	| DateTime	| date when post is last updated (default field)
 
 -Sprint 2
 - <img src='https://github.com/CSC-4001-Pinterest/PinterestApp/blob/main/Walkthrough2.gif'/>
-
+Sprint 3
+- <img src='https://github.com/CSC-4001-Pinterest/PinterestApp/blob/main/guystrist-demo%20(1).gif'/>
